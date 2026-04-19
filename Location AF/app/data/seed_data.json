@@ -1,0 +1,24 @@
+{
+  "gnbs": [
+    { "id": "gnb-1", "lat": 23.246538, "lng": 72.614607, "radius": 3000.0 },
+    { "id": "gnb-2", "lat": 23.245909, "lng": 72.596821, "radius": 3000.0 }
+  ],
+  "static_ues": [
+    {"id": "imsi-208930000000001", "lat": 23.2449, "lng": 72.6151},
+    {"id": "imsi-208930000000002", "lat": 23.2453, "lng": 72.5941}
+  ],
+  "zones": [
+    {
+      "id": "airport-restricted",
+      "type": "RED",
+      "shape": "CIRCLE",
+      "data": { "center": [22.3330, 73.2140], "radius": 500 }
+    },
+    {
+      "id": "safe-corridor-alpha",
+      "type": "PINK",
+      "shape": "POLYGON",
+      "data": { "coords": [[22.330, 73.220], [22.332, 73.222], [22.335, 73.225]] }
+    }
+  ]
+}
