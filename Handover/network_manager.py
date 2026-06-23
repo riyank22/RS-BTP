@@ -15,7 +15,8 @@ class NetworkManager:
         try:
             # Assuming a simple JSON body { "message": "..." }
             # or adjust based on your FastAPI model
-            requests.post(self.WEBUI_NOTIF_URL, json={"content": message}, timeout=1)
+            # requests.post(self.WEBUI_NOTIF_URL, json={"content": message}, timeout=1)
+            pass
         except Exception as e:
             print(f"   [WebUI-Link] Failed to send notification: {e}")
 
